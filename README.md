@@ -53,7 +53,7 @@ $ robot -v BROWSER:chromium -v HEADLESS:False -d ./logs tests
 $ robot -v BROWSER:firefox -d ./logs tests
 ```
 
-## Suite configuration, Setu And TearDown
+## Suite configuration, Setup And TearDown
 In file tests/__init__.robot, there a code responsible for create state session files e generate browser sessions logged with users form tests/fixtures/users.json ho is used for all tests in folder tests 
 
 ```
